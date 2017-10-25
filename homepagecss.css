@@ -1,3 +1,49 @@
 body {
 	background-color: #E3E5E7;
 }
+.jumbotron {
+	background-color: #80bfff;
+}
+.block {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  line-height: 28px;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+.show-description {
+  display: none;
+}
+
+.experience {
+	text-align: center;
+
+}
+.cv {
+	text-align: center;
+}
+.caption{
+	margin: auto;
+    max-width: 300px;
+    margin-bottom: 38px;
+}
+
+.caption:hover {
+	margin-bottom: 0;
+}
+
+
+.caption:hover > .show-description  {
+  display: block;
+}
+
+.spacer{
+	border-color: black;
+}
+
