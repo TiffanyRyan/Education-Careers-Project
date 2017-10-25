@@ -16,12 +16,11 @@ p {
 }
 /**/
 
+img{}
+
 .fa {
-   padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
+	display: initial;
+    padding: 20px;
     border-radius: 50%;
 }
 
@@ -32,6 +31,8 @@ p {
 .fa-facebook {
   background: #3B5998;
   color: white;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .fa-twitter {
