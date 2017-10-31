@@ -1,11 +1,15 @@
 $(document).ready(function(){
-	$("Info").click(function(){
-
-$(this).hide();
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
 });
+   $(document).ready(function(){
+    $("#flip1").click(function(){
+        $("#panel1").slideToggle("slow");
+    });
 });
-$(document).ready(function(){
-    $(".btn-info").click(function(){
-        $(this).button('toggle');
-    });   
+   $(document).ready(function(){
+    $("#flip2").click(function(){
+        $("#panel2").slideToggle("slow");
+    });
 });
