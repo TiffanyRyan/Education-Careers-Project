@@ -1,3 +1,8 @@
+body {
+	background-color: #E3E5E7;
+        font-family: 'Amaranth', sans-serif;
+}
+
 .navbar {
       margin-bottom: 0;
       border-radius: 0;
