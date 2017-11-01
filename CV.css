@@ -1,23 +1,23 @@
-    .navbar {
+.navbar {
       margin-bottom: 0;
       border-radius: 0;
-    }
+}
     
-     .footer {
+.footer {
       background-color: rgb(240,248,255);
       padding: 25px;
-    }
+}
     
-  .carousel-inner img {
+.carousel-inner img {
       width: 100%; 
       margin: auto;
       min-height:200px;
-  }
+}
 
-  @media (max-width: 600px) {
+@media (max-width: 600px) {
     .carousel-caption {
       display: none; 
-    }
+}
  
 .fa {
 	display: initial;
